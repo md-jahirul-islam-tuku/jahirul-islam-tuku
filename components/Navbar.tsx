@@ -92,7 +92,7 @@ const Navbar: React.FC = () => {
                 href={link.href}
                 className={`text-sm font-medium transition-colors ${
                   activeLink === link.href
-                    ? 'text-indigo-600 dark:text-darkLinkActive uppercase font-semibold'
+                    ? 'text-indigo-600 dark:text-darkLinkActive font-semibold'
                     : 'text-slate-600 dark:text-white hover:text-indigo-600 dark:hover:text-darkLinkActive'
                 }`}
               >
