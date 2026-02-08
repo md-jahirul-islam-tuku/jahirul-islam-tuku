@@ -7,8 +7,8 @@ export const PERSONAL_DETAILS = {
   location: "Medina, Saudi Arabia",
   origin: "Bangladesh",
   email: "mdjahirulislamtuku@gmail.com",
-  github: "https://github.com/JI-TUKU",
-  linkedin: "https://www.linkedin.com/in/jahirul-islam-tuku/", // Placeholder
+  github: "https://github.com/md-jahirul-islam-tuku",
+  linkedin: "https://www.linkedin.com/in/md-jahirul-islam-tuku", // Placeholder
 };
 
 export const PROJECTS: Project[] = [
