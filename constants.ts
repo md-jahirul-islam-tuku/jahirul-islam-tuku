@@ -2,7 +2,7 @@
 import { Project, Skill, Experience, Education } from './types';
 
 export const PERSONAL_DETAILS = {
-  name: "Jahirul Islam Tuku",
+  name: "Md Jahirul Islam Tuku",
   title: "Full-Stack Web Developer",
   location: "Medina, Saudi Arabia",
   origin: "Bangladesh",
@@ -14,21 +14,23 @@ export const PERSONAL_DETAILS = {
 export const PROJECTS: Project[] = [
   {
     title: "SaadDentistry",
-    description: "You can know about SaaDDentistry A simple React app built with React, Firebase, express.js, Mongodb and React router dom about Dental Surgeon Dr. Saad Abdallah Al Mohaymin's personal dental services.",
-    techStack: ["ReactJS", "TailwindCSS", "MongoDB", "ExpressJS"],
-    githubLink: "https://github.com/Md-Jahirul-Islam-Tuku/saad-dentistry-server",
-    liveLink: "https://saad-dentistry.web.app/",
-    image: "https://i.ibb.co/ds7T4wHD/Saa-DDentistry.jpg",
-    category: "Healthcare & Medical"
+    description: "I'm excited to share one of my recent projects — a **Dental Doctor Appointment System** built using the MERN stack. The goal of this project was to create a complete online platform where patients can easily explore dental services, book appointments, and manage their bookings with a secure and user-friendly experience.",
+    techStack: ["MERN", "TailwindCSS", "Firebase", "JWT", "React Stripe"],
+    githubLinkFrontend:"https://github.com/md-jahirul-islam-tuku/saad-dentistry",
+    githubLinkBackend: "https://github.com/Md-Jahirul-Islam-Tuku/saad-dentistry-server",
+    liveLink: "https://saad-dentistry.netlify.app/",
+    image: "https://i.ibb.co/JR6tfp6H/Saa-D-Dentistry.png",
+    category: "Doctor appointment"
   },
   {
     title: "Camera Crew",
     description: "A Full-stack website built with React, Firebase, express.js, Mongodb and React router dom Camera about Sale Site name CameraCrew.",
-    techStack: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "React Stripe"],
-    githubLink: "https://github.com/Md-Jahirul-Islam-Tuku/Camera-Crew",
+    techStack: ["MERN", "TailwindCSS", "Firebase", "JWT", "React Stripe"],
+    githubLinkFrontend: "https://github.com/Md-Jahirul-Islam-Tuku/Camera-Crew",
+    githubLinkBackend: "https://github.com/md-jahirul-islam-tuku/Camera-Crew-Server",
     liveLink: "https://camera-crew.web.app/",
     image: "https://i.ibb.co/Xxc0Gj1n/camera-crew.png",
-    category: "Electronics Services & Retail"
+    category: "Camera Services & Retail"
   },
 ];
 

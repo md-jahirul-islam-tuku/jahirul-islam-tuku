@@ -3,7 +3,8 @@ export interface Project {
   title: string;
   description: string;
   techStack: string[];
-  githubLink: string;
+  githubLinkFrontend: string;
+  githubLinkBackend: string;
   liveLink?: string;
   image: string;
   category: string;
