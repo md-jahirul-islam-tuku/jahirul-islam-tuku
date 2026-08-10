@@ -19,7 +19,10 @@ const App: React.FC = () => {
         color="white"
         smooth={true}
         viewBox="0 0 150 280"
-        style={{ backgroundColor: "#4f46e5" }}
+        style={{
+          backgroundColor: "#4f46e5",
+          zIndex: 9999,
+        }}
       />
       <Navbar />
       <main>
