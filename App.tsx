@@ -17,7 +17,7 @@ const App: React.FC = () => {
     <div className="min-h-screen">
       <ScrollToTop
         color="white"
-        smooth="true"
+        smooth={true}
         viewBox="0 0 150 280"
         style={{ backgroundColor: "#4f46e5" }}
       />

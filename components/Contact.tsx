@@ -51,8 +51,8 @@ const Contact: React.FC = () => {
       setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
   };
-  const form = useRef();
-  const handleMessage = (e) => {
+  const form = useRef<HTMLFormElement | null>(null);
+  const handleMessage = (e: any) => {
     setLoading(true);
     e.preventDefault();
     if (!validate()) return;
@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
       .sendForm(
         "service_mbqd7qo",
         "template_eog9pgd",
-        form.current,
+        form.current!,
         "3BJ0Rz1QiydsvKtlC",
       )
       .then(() => {
