@@ -63,7 +63,7 @@ const About: React.FC = () => {
         <div className="relative">
           <div className="aspect-square rounded-3xl bg-slate-100 dark:bg-white/5 overflow-hidden shadow-2xl">
             <img
-              src="https://i.ibb.co/pjQQfTzj/Whats-App-Image-2026-02-04-at-5-37-13-PM.jpg"
+              src="https://i.ibb.co.com/s91Z1033/JIT.jpg"
               alt="Md. Jahirul Islam Tuku"
               className="w-full h-full object-cover"
             />

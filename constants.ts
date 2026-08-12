@@ -57,21 +57,6 @@ export const PROJECTS: Project[] = [
   },
 ];
 
-// export const SKILLS: Skill[] = [
-//   { name: "ReactJS", icon: "fab fa-react", level: 'Intermediate' },
-//   { name: "NextJS", icon: "fas fa-n", level: 'Intermediate' },
-//   { name: "TypeScript", icon: "fas fa-code", level: 'Intermediate' },
-//   { name: "JavaScript", icon: "fab fa-js", level: 'Intermediate' },
-//   { name: "NodeJS", icon: "fab fa-node-js", level: 'Junior' },
-//   { name: "ExpressJS", icon: "fas fa-server", level: 'Junior' },
-//   { name: "MongoDB", icon: "fas fa-database", level: 'Junior' },
-//   { name: "TailwindCSS", icon: "fas fa-wind", level: 'Expert' },
-//   { name: "Redux", icon: "fas fa-layer-group", level: 'Intermediate' },
-//   { name: "Git", icon: "fab fa-git-alt", level: 'Intermediate' },
-//   { name: "Figma", icon: "fab fa-figma", level: 'Junior' },
-//   { name: "Firebase", icon: "fas fa-fire", level: 'Junior' },
-// ];
-
 export const SKILLS: Skill[] = [
   // Frontend
   { name: "ReactJS", icon: "fab fa-react", level: "Intermediate" },
