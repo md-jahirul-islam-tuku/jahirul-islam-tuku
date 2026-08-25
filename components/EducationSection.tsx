@@ -130,7 +130,7 @@ const EducationSection: React.FC = () => {
             ))}
 
             <a
-              href="https://drive.google.com/file/d/1l991c7Qxf4ZYaORmmTXh3uWQ08gKPP2t/view"
+              href="https://drive.google.com/file/d/1SDcPx1fIKXAWlBMNzNb3p8MErBXTq0dr/view"
               download
               target="_blank"
               rel="noopener noreferrer"
